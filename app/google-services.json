@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "231907390952",
+    "project_id": "spensei",
+    "storage_bucket": "spensei.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:231907390952:android:09d5e02fc6d2a94862a05d",
+        "android_client_info": {
+          "package_name": "com.spensei.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "231907390952-1s2c6s8ld985f0g2g9bem9j4ivkkvg64.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.spensei.app",
+            "certificate_hash": "8d9f3419764fd28de4fec189a893a44c28473b3a"
+          }
+        },
+        {
+          "client_id": "231907390952-f8q8p6f3iugn7k6i1iu60pjj201tg184.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcnlWcstlWTYxmqQIQ_uBTSpplXtY3uz0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "231907390952-f8q8p6f3iugn7k6i1iu60pjj201tg184.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -11,6 +11,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import com.spensei.app.presentation.screens.auth.LoginScreen
 import com.spensei.app.ui.theme.SpenseiTheme
 
 class MainActivity : ComponentActivity() {
@@ -19,11 +20,10 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             SpenseiTheme {
-                Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    Greeting(
-                        name = "Pavan",
-                        modifier = Modifier.padding(innerPadding)
-                    )
+                setContent {
+                    SpenseiTheme {
+                        LoginScreen()
+                    }
                 }
             }
         }

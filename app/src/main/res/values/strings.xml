@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Spensei</string>
+    <string name="default_web_client_id" translatable="false">231907390952-f8q8p6f3iugn7k6i1iu60pjj201tg184.apps.googleusercontent.com</string>
 </resources>

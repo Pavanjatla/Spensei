@@ -22,10 +22,10 @@
             <InsightsFilterSettings>
               <option name="connection">
                 <ConnectionSetting>
-                  <option name="appId" value="PLACEHOLDER" />
-                  <option name="mobileSdkAppId" value="" />
-                  <option name="projectId" value="" />
-                  <option name="projectNumber" value="" />
+                  <option name="appId" value="com.spensei.app" />
+                  <option name="mobileSdkAppId" value="1:231907390952:android:09d5e02fc6d2a94862a05d" />
+                  <option name="projectId" value="spensei" />
+                  <option name="projectNumber" value="231907390952" />
                 </ConnectionSetting>
               </option>
               <option name="signal" value="SIGNAL_UNSPECIFIED" />
