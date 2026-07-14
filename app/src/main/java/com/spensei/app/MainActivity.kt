@@ -11,9 +11,12 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import com.spensei.app.presentation.navigation.SpenseiNavGraph
 import com.spensei.app.presentation.screens.auth.LoginScreen
 import com.spensei.app.ui.theme.SpenseiTheme
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -22,7 +25,7 @@ class MainActivity : ComponentActivity() {
             SpenseiTheme {
                 setContent {
                     SpenseiTheme {
-                        LoginScreen()
+                        SpenseiNavGraph()
                     }
                 }
             }
