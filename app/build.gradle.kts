@@ -102,4 +102,8 @@ dependencies {
 
     // DataStore (for theme/currency prefs later)
     implementation(libs.datastore.preferences)
+
+    //icons
+    implementation(libs.androidx.material.icons.extended)
+
 }

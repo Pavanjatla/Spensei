@@ -13,6 +13,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.lifecycle.lifecycleScope
+import com.spensei.app.presentation.navigation.SpenseiApp
 import com.spensei.app.presentation.navigation.SpenseiNavGraph
 import com.spensei.app.presentation.screens.auth.LoginScreen
 import com.spensei.app.ui.theme.SpenseiTheme
@@ -29,7 +30,7 @@ class MainActivity : ComponentActivity() {
             SpenseiTheme {
                 setContent {
                     SpenseiTheme {
-                        SpenseiNavGraph()
+                        SpenseiApp()
                     }
                 }
             }
